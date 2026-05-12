@@ -26,12 +26,12 @@ const STEPS: Step[] = [
     title: "Gissel",
     body: `Hola Gissel, soy Sergio xdd.
 
-Sí, usé IA para hacer esta página... ya sé, suena raro. La IA me ayudó a armarla, pero lo que dice aquí <strong>sale de mí :V</strong>, no de chatgpt xddd la vdd.
+Sí, usé IA para hacer esta página... ya sé, suena raro, dijiste que odiabas que usaran la ia, pero solo la use para el codigo, que esta en hecha en Next.js con React y algunas librerias xdxd osea solo la use porque no me gusta hacer algo simple bueno ya. La IA solo me ayudó a armarla, pero lo que dice aquí <strong>sale de mí :V</strong>, no de chatgpt xddd la vdd. tienes que darle siguiente para seguir avanzando las secciones o picarle a los numeros :v
 `,
   },
 {
 kicker: "Responsabilidad",
-title: "Perdón",
+title: "Perdón :(",
 body: `Todo lo que pasó fue mi culpa. No tuya. Si te alejaste fue por mi forma de ser. Te hice daño sin querer, no fue mi intención. Ese día yo estaba cansado y adolorido porque había jugado después de tiempo fútbol y me habían pateado mucho las piernas, y también me raspé las rodillas, una rodilla aún tiene algunas cicatrices xd. Bueno, pero eso no cambia que ese día estuve algo frío en responderte, y antes de eso también no te respondía a tiempo, te respondía después de tiempo y así, y lo siento mucho. Ojalá nunca hubiese ido a ese partido.<br/><br/>
 
 Yo entiendo que te molestes porque las mujeres son más sensibles, o de repente te molestó tal vez porque te estaba pidiendo mucho cariño ese mismo día.<br/><br/>
@@ -69,9 +69,9 @@ Estoy dispuesto a <strong>cambiar de verdad</strong> lo que te moleste. No quier
   {
     kicker: "Cierre",
     title: "Lo que importa",
-    body: `Si algún día quieres hablar... aquí voy a estar. Siempre. No importa cuándo.
+    body: `Si algún día quieres hablar y hoy mismo... aquí voy a estar. Siempre lo estaré para ti. No importa cuándo.
 
-Te deseo todo lo bueno del mundo. <strong>Gracias</strong> por el amor y el tiempo que me diste, Gissel. Para mí significó todo, y siempre lo va a significar.
+Te deseo todo lo bueno del mundo. <strong>Gracias</strong> por el amor y el tiempo que me diste, Gissel.<strong> haz sido y serás mi persona favorita 😔 </strong> Para mí significó todo, y siempre lo va a significar.
 
 Te quiero mucho. 🩷`,
   },
