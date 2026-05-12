@@ -113,7 +113,7 @@ function IntroScreen({ onEnter }: { onEnter: () => void }) {
           Para <em>Gissel</em>
         </h1>
         <p className="intro-subtitle" data-intro-anim>
-          Con cariño y calma, paso a paso
+          Lee esto cuando tengas tiempo
         </p>
         <p className="intro-cta" data-intro-anim>
           toca para abrir
@@ -201,10 +201,10 @@ export default function GisselLanding() {
               transition={{ delay: 0.3, duration: 0.6 }}
             >
               <h1 className="hero-title">
-                Con cariño y calma, <em>paso a paso</em>
+                Lo que siento <em>de verdad</em>
               </h1>
               <p className="hero-sub">
-                Un mensaje que viene desde lo más profundo
+                Escrito para ti
               </p>
             </motion.div>
 
