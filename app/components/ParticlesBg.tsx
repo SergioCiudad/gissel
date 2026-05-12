@@ -1,20 +1,23 @@
 "use client";
 
-import { useCallback } from "react";
+import { useEffect, useState } from "react";
 import Particles from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import type { Engine } from "@tsparticles/engine";
+import { tsParticles } from "@tsparticles/engine";
 
 export default function ParticlesBg() {
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadSlim(engine);
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    loadSlim(tsParticles).then(() => setReady(true));
   }, []);
+
+  if (!ready) return null;
 
   return (
     <div className="particles-bg">
       <Particles
         id="bg-particles"
-        init={particlesInit}
         options={{
           fullScreen: false,
           fpsLimit: 60,
